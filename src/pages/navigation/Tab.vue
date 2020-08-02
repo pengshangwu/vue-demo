@@ -14,6 +14,9 @@
       <el-menu-item index="/order">
         个人中心
       </el-menu-item>
+      <el-menu-item index="/parent">
+        父子组件
+      </el-menu-item>
     </el-menu>
   </div>
 </template>

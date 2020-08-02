@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from '../pages/navigation/Home'
 import Product from '../pages/navigation/Product'
 import Order from '../pages/navigation/Order'
+import Parent from '../pages/navigation/Parent'
 
 import Layout from '../pages/navigation/Layout';
 
@@ -31,6 +32,11 @@ export default new Router({
           path: 'order',
           name: 'order',
           component: Order
+        },
+        {
+          path: 'parent',
+          name: 'parent',
+          component: Parent
         }
       ]
     },
